@@ -14,7 +14,7 @@ public class FileOutStream {
 
     public static void main(String[] args) throws IOException {
 
-        FileOutputStream stream = new FileOutputStream("a.txt",true);
+        FileOutputStream stream = new FileOutputStream("e.txt",true);
 
         String str = "abc";
         byte[] bytes = str.getBytes();
